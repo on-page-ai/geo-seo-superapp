@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.35.16 - 2026-08-02
+
+- Stops recurring background balance checks and keeps monitoring local by
+  default.
+- Stores downloaded scheduled-scan history locally in the SuperApp.
+- Repairs valid On-Page.ai connections whose local scan connector did not
+  finish setup.
+- Leads first-time setup directly into the first SEO report.
+- Explains when a report cannot run because a required page URL is missing.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.15 - 2026-07-31
 
 - Updates On-Page.ai onboarding for the one-time $1 activation.
