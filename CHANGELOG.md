@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.35.17 - 2026-08-02
+
+- Removes unapproved pricing and credit promotional copy from the On-Page.ai
+  onboarding step.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.16 - 2026-08-02
 
 - Stops recurring background balance checks and keeps monitoring local by
