@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.35.23 - 2026-08-03
+
+- Makes link-opportunity recipes start from a fresh scan and use the paired
+  browser to verify opportunities and prepare useful backlink deliverables.
+- Turns report opportunities into short, action-specific, editable prompt
+  instructions without switching recipes or closing the report.
+- Fixes the project new-task control and keeps active follow-up conversations
+  anchored without scroll jumps or twitching.
+- Cleans up long-message layout, report controls, and copy-button styling.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.21 - 2026-08-03
 
 - Keeps the SuperApp AI sign-in separate from personal Codex credentials and
