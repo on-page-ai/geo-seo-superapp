@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.35.18 - 2026-08-02
+
+- Tests the AI engine end to end during new setup and on demand in Settings,
+  instead of treating a saved login as proof that the model can respond.
+- Explains account, plan, quota, region, model, rate-limit, and timeout failures
+  in plain language.
+- Warns when a real run receives no model activity and keeps probe results
+  entirely local.
+- Makes one deliberate model request per test and never loads On-Page.ai or
+  other SuperApp connectors during that test.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.17 - 2026-08-02
 
 - Removes unapproved pricing and credit promotional copy from the On-Page.ai
