@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.35.21 - 2026-08-03
+
+- Keeps the SuperApp AI sign-in separate from personal Codex credentials and
+  stops importing personal credentials into the app.
+- Makes AI sign-in repair crash-safe without logging out or revoking the
+  user's personal Codex sign-in.
+- Routes authentication recovery to the connection mode used by the failed
+  run, including SuperApp, API-key, and personal Codex modes.
+- Preserves the privacy behavior from 0.35.17: no recurring balance or hosted
+  history polling, and downloaded run history remains local.
+
+This release supersedes 0.35.18. It is a signed and Apple-notarized Apple
+silicon macOS release.
+
 ## 0.35.18 - 2026-08-02
 
 - Tests the AI engine end to end during new setup and on demand in Settings,
