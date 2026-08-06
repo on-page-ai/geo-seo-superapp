@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.35.24 - 2026-08-06
+
+- Adds the Position 9-30 Charles Special for selecting exact Search Console
+  pages and queries and turning them into focused page updates.
+- Places the complete editable recipe prompt in the main Ask box, with one
+  lite On-Page scan per selected query and approval before site changes.
+- Queues selected pages sequentially while retaining prompt edits and lets the
+  operator review, navigate, or remove any queued prompt before sending.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.23 - 2026-08-03
 
 - Makes link-opportunity recipes start from a fresh scan and use the paired
